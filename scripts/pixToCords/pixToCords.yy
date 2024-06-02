@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"pixToCords",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"pixToCords",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
