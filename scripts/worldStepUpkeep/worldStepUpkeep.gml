@@ -4,7 +4,10 @@ function worldStepUpkeep(){
 	
 	//increment time
 	playTimeMS ++;
-	if(playTimeMS >= room_speed){ playTimeMS = 0; playTimeS ++; }
+	if(playTimeMS >= room_speed){ 
+		sun += 1;
+		playTimeMS = 0; playTimeS ++; 
+	}
 	if(playTimeS >= 60){ playTimeS = 0; playTimeM ++; }
 	
 	//if there's mobs left to spawn this wave

@@ -15,3 +15,7 @@ if(ww.cursor != noone){
 		draw_sprite_stretched(ww.cursor.img, 0, a * 128, b * 128, 128, 128);
 	}
 }
+
+draw_set_halign(fa_right);
+draw_text(room_width - 4, 4, ww.sun);
+draw_set_halign(fa_left);

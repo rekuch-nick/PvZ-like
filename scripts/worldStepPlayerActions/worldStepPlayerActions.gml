@@ -12,6 +12,18 @@ function worldStepPlayerActions(){
 					show_debug_message(cursor)
 				}
 			}
+		} else if (inBounds(cur.a, cur.b)){
+			if(pmap[cur.a, cur.b] == noone){
+				show_debug_message(cursor.cd)
+				if(sun >= cursor.cost && cursor.cd < 1){
+					//buy planet
+					sun -= cursor.cost;
+					cursor.cd = cursor.cdMax;
+					var c = cordsToPix(cur.a, cur.b);
+					pmap[cur.a, cur.b] = instance_create_depth(c.a, c.b, ww.layerP, cursor.obj);
+					cursor = noone;
+				}
+			}
 		}
 		
 		

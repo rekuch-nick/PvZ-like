@@ -48,6 +48,7 @@
     {"id":{"name":"objWorld","path":"objects/objWorld/objWorld.yy",},},
     {"id":{"name":"roomBattle01","path":"rooms/roomBattle01/roomBattle01.yy",},},
     {"id":{"name":"roomTitle","path":"rooms/roomTitle/roomTitle.yy",},},
+    {"id":{"name":"cordsToPix","path":"scripts/cordsToPix/cordsToPix.yy",},},
     {"id":{"name":"getCard","path":"scripts/getCard/getCard.yy",},},
     {"id":{"name":"getRowPoint","path":"scripts/getRowPoint/getRowPoint.yy",},},
     {"id":{"name":"inBounds","path":"scripts/inBounds/inBounds.yy",},},
