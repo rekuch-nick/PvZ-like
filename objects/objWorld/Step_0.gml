@@ -10,11 +10,6 @@ if(state == State.play){
 	
 	
 	
-	
-	
-	
-	
-	
 }
 
 

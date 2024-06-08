@@ -1,4 +1,5 @@
 buttonPressed = "";
+randomize();
 
 layerP = -50;
 layerM = -100;
@@ -15,4 +16,4 @@ cur = pixToCords(mouse_x, mouse_y);
 handMax = 5;
 hand = [getCard(objPlanetFarm), getCard(objPlanetDesert), noone, noone, noone];
 
-sun = 100000;
+sun = 100;

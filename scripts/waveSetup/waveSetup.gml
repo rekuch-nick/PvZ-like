@@ -1,4 +1,4 @@
-function waveSetup(m, p, r, n){
+function waveSetup(m, p, r, n, e){
 	
 	
 	waves[array_length(waves)] = {
@@ -6,5 +6,6 @@ function waveSetup(m, p, r, n){
 		pat: p,
 		rate: r,
 		note: n,
+		endCD: e,
 	};
 }

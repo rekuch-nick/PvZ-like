@@ -53,6 +53,7 @@
     {"id":{"name":"getRowPoint","path":"scripts/getRowPoint/getRowPoint.yy",},},
     {"id":{"name":"inBounds","path":"scripts/inBounds/inBounds.yy",},},
     {"id":{"name":"pixToCords","path":"scripts/pixToCords/pixToCords.yy",},},
+    {"id":{"name":"pointInBlock","path":"scripts/pointInBlock/pointInBlock.yy",},},
     {"id":{"name":"roll","path":"scripts/roll/roll.yy",},},
     {"id":{"name":"stageSetup","path":"scripts/stageSetup/stageSetup.yy",},},
     {"id":{"name":"waveSetup","path":"scripts/waveSetup/waveSetup.yy",},},

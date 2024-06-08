@@ -13,10 +13,9 @@ function stageSetup(n){
 	
 	if(n == 1){ 
 		
-		waveSetup([objMobBee, objMobBee, objMobBee, objMobBee, objMobBee], Pat.equal, 30, "");
-		waveSetup([objMobBee, objMobBee, objMobBee, objMobBee, objMobBee], Pat.equal, 10, "");
-		waveSetup([objMobBee, objMobBee, objMobBee, objMobBee, objMobBee], Pat.equal, 30, "");
-		
+		waveSetup([objMobBee, objMobBee, objMobBee, objMobBee, objMobBee], Pat.equal, 30, "", -1);
+		waveSetup([objMobBee, objMobBee, objMobBee, objMobBee, objMobBee], Pat.equal, 10, "", 150);
+		waveSetup([objMobBee, objMobBee, objMobBee, objMobBee, objMobBee], Pat.equal, 30, "", 150);
 		
 		
 	}
