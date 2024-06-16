@@ -26,7 +26,9 @@
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"scary.jfif","CopyToMask":-1,"filePath":"datafiles","name":"scary.jfif","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -61,6 +63,7 @@
     {"id":{"name":"worldStepUpkeep","path":"scripts/worldStepUpkeep/worldStepUpkeep.yy",},},
     {"id":{"name":"zNums","path":"scripts/zNums/zNums.yy",},},
     {"id":{"name":"imgBGStage","path":"sprites/imgBGStage/imgBGStage.yy",},},
+    {"id":{"name":"imgBGTitle_","path":"sprites/imgBGTitle_/imgBGTitle_.yy",},},
     {"id":{"name":"imgBGTitle","path":"sprites/imgBGTitle/imgBGTitle.yy",},},
     {"id":{"name":"imgButton01","path":"sprites/imgButton01/imgButton01.yy",},},
     {"id":{"name":"imgCard","path":"sprites/imgCard/imgCard.yy",},},
@@ -70,6 +73,7 @@
     {"id":{"name":"imgPlanet","path":"sprites/imgPlanet/imgPlanet.yy",},},
     {"id":{"name":"imgPlanetDesert","path":"sprites/imgPlanetDesert/imgPlanetDesert.yy",},},
     {"id":{"name":"imgPlanetFarm","path":"sprites/imgPlanetFarm/imgPlanetFarm.yy",},},
+    {"id":{"name":"imgSplash","path":"sprites/imgSplash/imgSplash.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

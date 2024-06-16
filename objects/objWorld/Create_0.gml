@@ -1,3 +1,5 @@
+//https://perchance.org/pretty-ai
+
 buttonPressed = "";
 randomize();
 
